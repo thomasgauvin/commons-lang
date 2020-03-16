@@ -43,6 +43,7 @@ public class ArchUtilsTest {
         assertNotNull(arch);
         assertNotNull(processor);
         assertEquals(arch, processor.getArch());
+        assertEquals(false, true);
     }
 
     private void assertEqualsTypeNotNull(final Processor.Type type, final Processor processor) {
